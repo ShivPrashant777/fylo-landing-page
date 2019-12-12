@@ -21,7 +21,7 @@ body {
 
 .nav ul li img {
   margin-left: 10px;
-  width: 85%;
+  width: 70%;
 }
 
 .nav ul li a {
@@ -153,6 +153,7 @@ body {
 
 .early-access {
   background-color: #575989;
+  padding-bottom: 60px;
 }
 
 .early-access .left {
@@ -202,6 +203,42 @@ body {
           box-shadow: 0 1px 7px #444444;
 }
 
+.footer {
+  background-color: #070439;
+  padding: 40px;
+}
+
+.footer #footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer .contact {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.footer .contact p {
+  position: relative;
+  bottom: 35px;
+  left: 35px;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li a {
+  padding: 0;
+  text-decoration: none;
+  line-height: 50px;
+  color: white;
+}
+
 @media only screen and (min-width: 850px) {
   .nav ul {
     width: calc(100% - 50px);
@@ -242,6 +279,9 @@ body {
     top: 5px;
     margin-top: 60px;
     width: 100%;
+  }
+  .container {
+    padding-bottom: 40px;
   }
   .container .right {
     margin-top: 0;
@@ -289,6 +329,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     padding: 0;
+    padding-bottom: 60px;
   }
   .early-access .left {
     padding: 20px 40px;
@@ -312,6 +353,15 @@ body {
   .early-access .right button {
     margin: 0 30px;
     width: 40%;
+  }
+  .footer .column {
+    float: left;
+    width: 33.33%;
+  }
+  .footer:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 /*# sourceMappingURL=main.css.map */

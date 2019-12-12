@@ -22,7 +22,7 @@ body {
         padding: 10px;
         img {
             margin-left: 10px;
-            width: 85%;
+            width: 70%;
         }
         a {
             text-decoration: none;
@@ -162,7 +162,7 @@ body {
 // Early Access 
 .early-access {
     background-color: #575989;
-
+    padding-bottom: 60px;
     .left {
         color: white;
         padding: 20px 10px;
@@ -204,6 +204,41 @@ body {
             background-color: #2f65f9;
             box-shadow: 0 1px 7px rgb(68, 68, 68);
         }
+    }
+}
+
+.footer {
+    background-color: hsl(243, 87%, 12%);
+    padding: 40px;
+
+    #footer-logo {
+        margin-bottom: 30px;   
+    }
+
+    p {
+        color: white;
+    }
+    
+    .contact {
+        padding: 0;
+        margin: 0;
+        display: block;
+        p {
+            position: relative;
+            bottom: 35px;
+            left: 35px;
+        }
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    li a {
+        padding: 0;
+        text-decoration: none;
+        line-height: 50px;
+        color: white;
     }
 }
 
@@ -255,6 +290,7 @@ body {
     }
 
     .container {
+        padding-bottom: 40px;
         .right {
             margin-top: 0;
         }
@@ -308,6 +344,7 @@ body {
     .early-access {
         display: flex;
         padding: 0;
+        padding-bottom: 60px;
         .left {
             padding: 20px 40px;
             margin: 0;
@@ -335,5 +372,21 @@ body {
                 width: 40%;
             }
         }
+    }
+
+    .footer {
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+        :after {
+
+        }
+    }
+
+    .footer:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 }
