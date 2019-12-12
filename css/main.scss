@@ -33,11 +33,13 @@ body {
 
 // hero-section
 
-.right img {
-    margin: 0 30px;
-    padding-top: 100px;
-    padding-bottom: 40px;
-    width: 80%;
+.right {
+    img {
+        margin: 0 30px;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        width: 80%;
+    }
 }
 
 .left {
@@ -74,6 +76,7 @@ body {
         color: white;
         font-weight: bold;
         background-color: #2f65f9;
+        box-shadow: 0 1px 7px rgb(156, 156, 156);
     }
 }
 
@@ -156,8 +159,53 @@ body {
     }
 }
 
+// Early Access 
+.early-access {
+    background-color: #575989;
 
+    .left {
+        color: white;
+        padding: 20px 10px;
+        h1 {
+            font-size: 1.2em;
+            padding-top: 40px;
+            margin: 0px;
+        }
 
+        p {
+            font-size: 1.2em;
+            font-weight: lighter;
+            padding: 0 20px;
+            line-height: 30px;
+        }
+    }
+    
+    .right {
+        padding: 0 60px;
+        input {
+            margin: 20px 20px;
+            padding: 20px 20px;
+            width: 80%;
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+            box-shadow: 0 1px 7px rgb(68, 68, 68);
+        }
+    
+        button {
+            margin: 0px 20px;
+            padding: 20px 20px;
+            width: 90%;
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+            color: white;
+            font-weight: bold;
+            background-color: #2f65f9;
+            box-shadow: 0 1px 7px rgb(68, 68, 68);
+        }
+    }
+}
 
 
 
@@ -253,6 +301,38 @@ body {
                 top: -25px;
                 left: 65px;
                 padding-bottom: 10px;
+            }
+        }
+    }
+
+    .early-access {
+        display: flex;
+        padding: 0;
+        .left {
+            padding: 20px 40px;
+            margin: 0;
+            h1 {
+                margin: 0;
+                padding-top: 70px;
+                font-size: 1.5em;
+            }
+
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+        
+        .right {
+            padding: 20px 40px;
+
+            input {
+                margin: 70px 0 20px 30px;
+            }
+
+            button {
+                margin: 0 30px;
+                width: 40%;
             }
         }
     }
